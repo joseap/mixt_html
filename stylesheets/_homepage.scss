@@ -1,0 +1,63 @@
+$main-font: 'Josefin Sans', monospace;
+$purple: #50125E;
+$pink: #fe1ff7;
+$blue: #8BECE8;
+
+////////// HOME PAGE STYLING //////////
+#home_wrapper {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	margin: 0 auto;
+	text-align: center;
+	background: url(../imgs/background.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.logo {
+	float: left;
+}
+
+.home-btn {
+	margin: {
+		top: 580px;
+		left: auto;
+		right: auto;
+		bottom: auto;
+	}
+	display: block;
+	background-color: $purple;
+	text-align: center;
+	border: {
+		radius: 10px;
+		style: none;
+	}
+	box-shadow: 0px 0px 40px #cfcfcf;
+
+	h2 {
+		padding:0px;
+	}
+
+	&:hover {
+		background-color: $pink;
+		cursor: hand;
+		transition-delay: 0.2s; /* delays for 1 second */
+		-webkit-transition-delay: 0.2s; /* for Safari & Chrome */
+		transition: all 300ms linear;
+	}
+
+}
+
+footer {
+	width: 100%;
+	height: 100px;
+	margin-top: 100px;
+	
+	hr {
+		width: 200px;
+	}
+}

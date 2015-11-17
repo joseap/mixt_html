@@ -1,0 +1,75 @@
+@import 'navbar';
+@import 'homepage';
+@import 'link_styling';
+@import 'text_properties';
+@import 'bourbon/bourbon';
+@import 'sign_up';
+
+$main-font: 'Josefin Sans', monospace;
+$purple: #50125E;
+$pink: #fe1ff7;
+$blue: #8BECE8;
+
+/////////// HTML OVERALL STYLING AND FADE IN EFFECTS //////////
+html {
+	margin: {
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+	top: 0; bottom: 0; left: 0; right: 0;
+	height: 100%;
+	width: 100%;
+
+	animation: fadein 1s;
+	   -moz-animation: fadein 1s; /* Firefox */
+	   -webkit-animation: fadein 1s; /* Safari and Chrome */
+	   -o-animation: fadein 1s; /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+	margin: {
+		top: 0;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+	top: 0; bottom: 0; left: 0; right: 0;
+	height: 100%;
+	width: 100%;
+}
+

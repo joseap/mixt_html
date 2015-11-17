@@ -1,0 +1,73 @@
+$main-font: 'Josefin Sans', monospace;
+$purple: #50125E;
+$pink: #fe1ff7;
+$blue: #8BECE8;
+
+h1 {
+	font: {
+		size: 30px;
+		color: white;
+		family: $main-font;
+	}
+	letter-spacing: 4.5pt;
+}
+
+h2 {
+	font: {
+		size: 12px;
+		family: $main-font;
+		weight: 300;
+	}
+	color: white;
+	letter-spacing: 3pt;
+}
+
+h3 {
+	font: {
+		size: 8px;
+		family: $main-font;
+		weight: 700;
+	}
+	letter-spacing: 3px;
+	color: $pink;
+}
+
+h5 {
+	font: {
+			size: 8px;
+			family: $main-font;
+			weight: 400;
+		}
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		color: $blue;
+}
+
+h6 {
+	font: {
+		size: 6px;
+		family: $main-font;
+		weight: 400;
+	}
+	color: $purple;
+	letter-spacing: 2pt;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+	
+}
+
+.whitelinks {
+	text-decoration: none;
+	color: rgba(255,255,255,1);
+	transition-delay: 0.2s; /* delays for 1 second */
+	-webkit-transition-delay: 0.2s; /* for Safari & Chrome */
+	transition: all 200ms linear;
+
+	&:hover {
+		text-decoration: none;
+	}
+	
+}
