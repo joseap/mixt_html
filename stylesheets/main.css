@@ -9,7 +9,7 @@ nav li {
   padding: 5px;
   color: #50125E; }
   nav li a:hover {
-    color: #fe1ff7;
+    color: #8BECE8;
     transition-delay: 0.2s;
     /* delays for 1 second */
     -webkit-transition-delay: 0.2s;
@@ -86,11 +86,11 @@ h2 {
   letter-spacing: 3pt; }
 
 h3 {
-  font-size: 8px;
+  font-size: 11px;
   font-family: "Josefin Sans", monospace;
   font-weight: 700;
   letter-spacing: 3px;
-  color: #fe1ff7; }
+  color: white; }
 
 h5 {
   font-size: 8px;
@@ -180,7 +180,7 @@ a {
     margin: 20px auto; }
     #sign_wrap h3 a {
       text-decoration: underline;
-      color: #fe1ff7; }
+      color: #8BECE8; }
       #sign_wrap h3 a:hover {
         color: white;
         transition-delay: 0.2s;
